@@ -65,5 +65,6 @@ modules:
         - export XDG_DOCUMENTS_DIR=`xdg-user-dir DOCUMENTS`
         - export XDG_DOWNLOAD_DIR=`xdg-user-dir DOWNLOAD`
         - test -r jgex.cfg || ln -s $XDG_CONFIG_HOME/jgex.cfg
-        - /app/bin/Java-Geometry-Expert "$@"
+        - cd /app/bin # The application will search for the examples/ folder in the working directory.
+        - ./Java-Geometry-Expert "$@"
       - gradle-dependencies.json
