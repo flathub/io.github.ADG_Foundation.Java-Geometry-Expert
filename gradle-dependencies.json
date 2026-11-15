@@ -63,7 +63,7 @@
         "type": "file",
         "url": "https://plugins.gradle.org/m2/io/github/javapackager/io.github.javapackager.gradle.plugin/2.0.0/io.github.javapackager.gradle.plugin-2.0.0.pom",
         "sha256": "6a5a3e17f204ee4f72b9c6f681d3058836bafd1495970ad9bc7a7ccf5fc8a7d9",
-        "dest": "plugins"
+        "dest": "dependencies"
     },    
     {
         "type": "file",
