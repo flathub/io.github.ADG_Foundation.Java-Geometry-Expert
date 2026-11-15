@@ -55,8 +55,8 @@
     },
     {
         "type": "file",
-        "url": "https://repo.maven.apache.org/maven2/io/github/fvarrui/javapackager/1.7.5/javapackager-1.7.5.jar",
-        "sha256": "2abc6d6654209ceb9b3e38d9f35777133fd70cce833b52c6962ce9a9ee5c7236",
+        "url": "https://repo1.maven.org/maven2/io/github/javapackager/javapackager/2.0.0/javapackager-2.0.0.jar",
+        "sha256": "8b7777506609820a567030a8ea0aa3484639d22582186b6a2fe38fc64ae46814",
         "dest": "dependencies"
     },
     {
