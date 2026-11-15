@@ -61,6 +61,12 @@
     },
     {
         "type": "file",
+        "url": "https://plugins.gradle.org/m2/io/github/javapackager/io.github.javapackager.gradle.plugin/2.0.0/io.github.javapackager.gradle.plugin-2.0.0.pom",
+        "sha256": "6a5a3e17f204ee4f72b9c6f681d3058836bafd1495970ad9bc7a7ccf5fc8a7d9",
+        "dest": "plugins"
+    },    
+    {
+        "type": "file",
         "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.jar",
         "sha256": "271a82555c399d9b06c7751a802c3b919081a06b7c9b839bd70e93ea2df386e3",
         "dest": "dependencies"
