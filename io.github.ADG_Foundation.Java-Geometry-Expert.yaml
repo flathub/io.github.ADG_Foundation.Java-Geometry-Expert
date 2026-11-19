@@ -59,7 +59,7 @@ modules:
       - sed -i '/^tasks.matching {/,/^}/d' build.gradle
 
       # Build application:
-      - gradle -I flatpak/init.gradle --offline --no-daemon installDist
+      - gradle -I flatpak/init.gradle --offline --no-daemon -PsoftwareVersion=0.89 installDist
       - cp -a build/install/jgex/* /app
       - install -D jgex /app/bin/jgex
 
@@ -73,8 +73,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/ADG-Foundation/Java-Geometry-Expert/archive/13f31e642aa5074d52ceb8da71bc4ca3a00e7d70.zip
-        sha256: 0e7d33fd1a21ae794b2eced8400e5f1412618904298d19b504763c51f294b6ed
+        url: https://github.com/ADG-Foundation/Java-Geometry-Expert/archive/cbed288eb452baffbf49043d7a8db585d6b81b44.zip
+        sha256: 1055210cc402f3bb843c950b42025792861e281b998bdb39d67ebb7c0407804e
 
       - type: script
         dest-filename: jgex
