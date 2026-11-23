@@ -73,8 +73,8 @@ modules:
 
     sources:
       - type: archive
-        url: https://github.com/ADG-Foundation/Java-Geometry-Expert/archive/cbed288eb452baffbf49043d7a8db585d6b81b44.zip
-        sha256: 1055210cc402f3bb843c950b42025792861e281b998bdb39d67ebb7c0407804e
+        url: https://github.com/ADG-Foundation/Java-Geometry-Expert/archive/e880ab068668b5e4c6eb2ef867b3829762b0eb1f.zip
+        sha256: bd9988076588219c5b8ab3862e0da266ede1114ebae76a4d59ccb420ed3c3229
 
       - type: script
         dest-filename: jgex
